@@ -16,6 +16,10 @@
     text-align: center;
 }
 
+#foto-profil {
+    clip-path: circle(55px);
+}
+
 .btn {
     color: #dee3ff;
     background-color: #536dfe;
@@ -24,7 +28,23 @@
     padding: 12px 24px;
 }
 
-
 .btn:hover {
-    background-color: #2c3a85;
+    background-color: #3f52bd;
+    color: #9ea1b2;
 }
+
+#flex-tentang {
+    display: flex;
+
+}
+
+#tentang > p {
+    text-align: justify;
+}
+
+#keahlian {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+

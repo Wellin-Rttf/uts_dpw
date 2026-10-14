@@ -12,33 +12,41 @@
     </header>
     <main>
         <div id="profil" class="section">
-            <img src="assets/images/fotoo.jpg" alt="Foto Profil" id="foto-profil" style="height: 120px;">
+            <img src="assets/images/foto.jpg" alt="Foto Profil" id="foto-profil" style="height: 120px;">
             <h3 class="header3">Wellington C. Simangunsong</h3>
             <p>Mahasiswa Teknik Informatika</p>
             <button class="btn" id="btn-keahlian">Lihat Keahlian</button>
         </div>
         <div id="tentang" class="section">
             <h3 class="header3">Tentang Saya</h3>
-            <img src="assets/images/fotoo.jpg" alt="Foto Profil" id="foto-tentang" style="height: 240px;">
-            <p id="teks-tentang">Saya adalah Mahasiswa di Universitas Riau, mengambil Program Studi Teknik Informatika, dan sekarang berada di semester 3.</p>
-            <p id="teks-sembunyi">Saat ini tengah mempelajari pemrograman web dasar seperti HTML, CSS, dan JavaScript, dengan membuat web portofolio yang minimalis dan interaktif.</p>
+            <div id="flex-tentang">
+                <div>
+                    <img src="assets/images/foto.jpg" alt="Foto Profil" id="foto-tentang" style="max-width: 100px;">
+                </div>
+                <div>
+                     <p id="teks-tentang">Saya adalah Mahasiswa di Universitas Riau, mengambil Program Studi Teknik Informatika, dan sekarang berada di semester 3.</p>
+                    <p id="teks-sembunyi">Saat ini tengah mempelajari pemrograman web dasar seperti HTML, CSS, dan JavaScript, dengan membuat web portofolio yang minimalis dan interaktif.</p>
+                </div>
+            </div>
         </div>
-        <div id="keahlian" class="section">
+        <div>
             <h3 class="header3">Keahlian</h3>
-            <div id="keahlian-c" class="grid">
-                <img src="assets/images/c.png" alt="Logo C" id="logo-c" style="height: 100px;">
-                <p>Bahasa pemrograman prosedural yang digunakan untuk berbagai keperluan.</p>
-            </div>
-            <div id="keahlian-python" class="grid">
-                <img src="assets/images/python.png" alt="Logo Python" id="logo-python" style="height: 100px;">
-                <p>Bahasa pemrograman yang digunakan dalam bidang kecerdasan buatan dan machine learning.</p>
-            </div>
-            <div id="keahlian-html" class="grid">
-                <img src="assets/images/html.png" alt="Logo HTML" id="logo-html" style="height: 100px;">
-                <p>Bahasa skrip yang merupakan dasar atau skeleton dari halaman web.</p>
+            <div id="keahlian" class="section">
+                <div id="keahlian-c" class="grid">
+                    <img src="assets/images/c.png" alt="Logo C" id="logo-c" style="height: 100px;">
+                    <p>Bahasa pemrograman prosedural yang digunakan untuk berbagai keperluan.</p>
+                </div>
+                <div id="keahlian-python" class="grid">
+                    <img src="assets/images/python.png" alt="Logo Python" id="logo-python" style="height: 100px;">
+                    <p>Bahasa pemrograman yang digunakan dalam bidang kecerdasan buatan dan machine learning.</p>
+                </div>
+                <div id="keahlian-html" class="grid">
+                    <img src="assets/images/html.png" alt="Logo HTML" id="logo-html" style="height: 100px;">
+                    <p>Bahasa skrip yang merupakan dasar atau skeleton dari halaman web.</p>
+                </div>
             </div>
         </div>
-        <div id="kontak" class="section">
+                <div id="kontak" class="section">
             <h3 class="header3">Keahlian</h3>
             <form>
                 <label for="nama">Nama</label><br>
